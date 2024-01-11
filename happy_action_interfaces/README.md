@@ -5,7 +5,7 @@ happy_action用のインタフェース定義
 
 ## インストール
 Chapter2のパッケージは全部まとめてインストール・ビルドをします．
-- [第2章 インストール](https://github.com/AI-Robot-Book/chapter2)を参照してください．
+- [第2章 インストール](https://github.com/AI-Robot-Book-Cn/chapter2)を参照してください．
 
 ## 実行  
 - インタフェースの定義なので実行方法はありません．

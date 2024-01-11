@@ -1,4 +1,4 @@
-# 第２章　はじめてのROS2
+# 第２章　はじめてのROS2（FoxyからHumbleへの移植版）
 ## 概要
 ROS2とPythonで作って学ぶAIロボット入門（出村・萩原・升谷・タン著，講談社）第２章のサンプルプログラムと補足情報などを掲載しています．
 
@@ -16,23 +16,23 @@ ROS2とPythonで作って学ぶAIロボット入門（出村・萩原・升谷�
 - **[turtlesim_launch](turtlesim_launch)**: タートルシム用のローンチファイル 
 
 ## サンプルプログラム一覧
-- プログラムリスト2.1 [package.xml](https://github.com/AI-Robot-Book/chapter2/blob/master/hello/package.xml)
-- プログラムリスト2.2 [setup.py](https://github.com/AI-Robot-Book/chapter2/blob/master/hello/setup.py)
-- プログラムリスト2.3 [hello_node.py](https://github.com/AI-Robot-Book/chapter2/blob/master/hello/hello/hello_node.py)
-- プログラムリスト2.4 [happy_node.py](https://github.com/AI-Robot-Book/chapter2/blob/master/happy/happy/happy_node.py)
-- プログラムリスト2.5 [happy_node2.py](https://github.com/AI-Robot-Book/chapter2/blob/master/happy/happy/happy_node2.py)
-- プログラムリスト2.6 [happy_node3.py](https://github.com/AI-Robot-Book/chapter2/blob/master/happy/happy/happy_node3.py)
-- プログラムリスト2.7 [happy_publisher_node.py](https://github.com/AI-Robot-Book/chapter2/blob/master/happy_topic/happy_topic/happy_publisher_node.py)
-- プログラムリスト2.8 [happy_subscriber_node.py](https://github.com/AI-Robot-Book/chapter2/blob/master/happy_topic/happy_topic/happy_subscriber_node.py)
-- プログラムリスト2.9 [package.xml](https://github.com/AI-Robot-Book/chapter2/blob/master/happy_topic/package.xml)
-- プログラムリスト2.10 [setup.py](https://github.com/AI-Robot-Book/chapter2/blob/master/happy_topic/setup.py)
-- プログラムリスト2.11 [happy_pub_sub_node.py](https://github.com/AI-Robot-Book/chapter2/tree/master/happy_pub_sub/happy_pub_sub)
-- プログラムリスト2.12 [StringCommand.srv](https://github.com/AI-Robot-Book/chapter2/blob/master/airobot_interfaces/srv/StringCommand.srv)
-- プログラムリスト2.13 [bringme_service_node.py](https://github.com/AI-Robot-Book/chapter2/blob/master/bringme_service/bringme_service/bringme_service_node.py)
-- プログラムリスト2.14 [bringme_client_node.py](https://github.com/AI-Robot-Book/chapter2/blob/master/bringme_service/bringme_service/bringme_client_node.py)
-- プログラムリスト2.15 [CMakeLists.txt](https://github.com/AI-Robot-Book/chapter2/blob/master/airobot_interfaces/CMakeLists.txt)
-- プログラムリスト2.16 [package.xml](https://github.com/AI-Robot-Book/chapter2/blob/master/airobot_interfaces/package.xml)
-- プログラムリスト2.17 [setup.py](https://github.com/AI-Robot-Book/chapter2/blob/master/bringme_service/setup.py)
+- プログラムリスト2.1 [package.xml](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/hello/package.xml)
+- プログラムリスト2.2 [setup.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/hello/setup.py)
+- プログラムリスト2.3 [hello_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/hello/hello/hello_node.py)
+- プログラムリスト2.4 [happy_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy/happy/happy_node.py)
+- プログラムリスト2.5 [happy_node2.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy/happy/happy_node2.py)
+- プログラムリスト2.6 [happy_node3.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy/happy/happy_node3.py)
+- プログラムリスト2.7 [happy_publisher_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy_topic/happy_topic/happy_publisher_node.py)
+- プログラムリスト2.8 [happy_subscriber_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy_topic/happy_topic/happy_subscriber_node.py)
+- プログラムリスト2.9 [package.xml](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy_topic/package.xml)
+- プログラムリスト2.10 [setup.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/happy_topic/setup.py)
+- プログラムリスト2.11 [happy_pub_sub_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/tree/master/happy_pub_sub/happy_pub_sub)
+- プログラムリスト2.12 [StringCommand.srv](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/airobot_interfaces/srv/StringCommand.srv)
+- プログラムリスト2.13 [bringme_service_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/bringme_service/bringme_service/bringme_service_node.py)
+- プログラムリスト2.14 [bringme_client_node.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/bringme_service/bringme_service/bringme_client_node.py)
+- プログラムリスト2.15 [CMakeLists.txt](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/airobot_interfaces/CMakeLists.txt)
+- プログラムリスト2.16 [package.xml](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/airobot_interfaces/package.xml)
+- プログラムリスト2.17 [setup.py](https://github.com/AI-Robot-Book-Cn/chapter2/blob/master/bringme_service/setup.py)
 
 ## 実演動画一覧  
 - [チャレンジ2.4 (p.50)] (https://youtu.be/Vmu8w7EW-7U)  
@@ -51,7 +51,7 @@ Chapter2の全パッケージを以下のコマンドでインストールしま
 
 - Chapter2のリポジトリを入手
   ```
-  git clone https://github.com/AI-Robot-Book/chapter2
+  git clone https://github.com/AI-Robot-Book-Cn/chapter2
   ```
   
 - パッケージのビルド   
